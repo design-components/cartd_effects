@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <h2>01</h2>
+          <h3>Card One</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint eum odit praesentium, sunt provident ut deleniti cumque quae cupiditate, reiciendis nemo quam non dignissimos molestias at culpa veniam, dolor.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>02</h2>
+          <h3>Card Two</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint eum odit praesentium, sunt provident ut deleniti cumque quae cupiditate, reiciendis nemo quam non dignissimos molestias at culpa veniam, dolor.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>03</h2>
+          <h3>Card three</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sint eum odit praesentium, sunt provident ut deleniti cumque quae cupiditate, reiciendis nemo quam non dignissimos molestias at culpa veniam, dolor.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"> </script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+  </body>
+</html>
